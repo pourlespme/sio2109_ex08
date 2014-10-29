@@ -1,0 +1,58 @@
+ex08
+
+10/20
+
+//This code was inspired by: https://github.com/leduy10/ex08.git
+//This code was inspired by: https://github.com/alaincastonguay/ex08.git
+// Source: https://github.com/OlivierTremblay9/ex08 
+
+-1
+.gitignore manquant
+
+8.1
+-1
+  var liste = [
+                {"name": "IS", "description": "Information Systems"},
+                {"name": "CS", "description": "Computer Science"},
+                ]; 
+  var members = [ 
+           {"name": "IS", "firstName": "Bernard", "lastName": "Prince", "email": "bprince@pourlespme.com\n"}, 
+           {"name": "CS", "firstName": "Dzenan", "lastName": "Ridjanovic", "email": "Ridjanovic\n"}, 
+           {"name": "CS", "firstName": "Samuel", "lastName": "Tremblay", "email": "satrem@gmail.com"}, 
+           {"name": "IS", "firstName": "Léa", "lastName": "Tremblay", "email": "letrem@gmail.com"}, 
+           {"name": "CS", "firstName": "David", "lastName": "Julien", "email": "dajul@gmail.com"}, 
+           {"name": "IS", "firstName": "Eliane", "lastName": "Tremblay", "email": "eltrem@gmail.com"}, 
+           {"name": "CS", "firstName": "Julie", "lastName": "Simard", "email": "jusim@gmail.com"}, 
+           {"name": "CS", "firstName": "Simon", "lastName": "Fournier", "email": "sifour@gmail.com"} 
+      ];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+
+-1
+List association(List associationmembers) {
+-->
+List association(List associationMembers) {
+ou
+List association(List members) {
+
+List beginwith(List members, String letter) { 
+-->
+List beginWith(List members, String letter) {
+
+attention au formatage
+
+-1 GIVEN ASSOCIATION
+Sort the list of members of a GIVEN ASSOCIATION first by the last name, 
+THEN by the first name.
+-1 THEN
+
+8.2
+-5
+8.2
+Create a CLASS MODEL with associations and members... 
